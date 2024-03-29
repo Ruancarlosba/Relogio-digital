@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <ul id="relogio">
+        <li class="item-circulo" style="--clr:#d9ff02;">
+            <i class="pontos hr_ponto"></i>
+            <svg>
+               <circle cx="70" cy="70" r="70"></circle> 
+               <circle cx="70" cy="70" r="70" id="hh"></circle> 
+            </svg>
+            <div id="horas">00</div>
+        </li>
+        <li class="item-circulo" style="--clr:#bb00ff;">
+            <i class="pontos min_ponto"></i>
+            <svg>
+               <circle cx="70" cy="70" r="70"></circle> 
+               <circle cx="70" cy="70" r="70" id="mm"></circle> 
+            </svg>
+            <div id="minutos">00</div>
+        </li>
+        <li class="item-circulo" style="--clr:#ff9100;">
+            <i class="pontos seg_ponto"></i>
+
+            <svg>
+               <circle cx="70" cy="70" r="70"></circle> 
+               <circle cx="70" cy="70" r="70" id="ss"></circle> 
+            </svg>
+            <div id="segundos">00</div>
+        </li>
+        <li class="ap">
+            <div id="ampm">AM</div>
+        </li>
+    </ul>
+    
+    <script src="js/javascript.js"></script>
+</body>
+</html>
